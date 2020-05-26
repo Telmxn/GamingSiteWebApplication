@@ -1,0 +1,133 @@
+.logo-container{
+    background-color: #222222;
+    padding: 20px 0;
+}
+
+.logo-container > img{
+    margin-left: 17px;
+}
+
+.menu-container{
+    background-color: #353535;
+    display: inline;
+    padding: 30px;
+}
+
+.menu-container >ul> li{
+    position: relative;
+    display: inline;
+    margin: 30px;
+    
+}
+
+.menu-container >ul{
+    margin-top:18px;
+    list-style: none;
+
+}
+
+.menu-container >ul>li>a:hover{
+    text-decoration: none;
+
+}
+
+.menu-container >ul>li .line{
+    position: absolute;
+    left: 0px;
+    top: 67px;
+    display: inline-block;
+    width: 0px;
+    height: 3px;
+    background: #10ddb4;
+    transition: width 0.3s;
+}
+
+.menu-container >ul>li:hover .line{
+   width: 55px;
+   
+}
+span
+{
+    display: none;
+}
+.menu-container >ul>li >a{
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    line-height: 24px;
+    color: #EAEAEA;
+    font-weight: 700;
+    
+    
+}
+
+.addimg-container > img{
+    width: 100%;
+    
+}
+
+.slidersubmit{
+    background-color: #10DDB4;
+    color: #161616;
+    font-family:Roboto, sans-serif; 
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    width: 174px;
+    height: 55px;
+    border: none;
+    border-radius: 30px;
+}
+
+.slidertext{
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    line-height: 115.2px;
+    font-weight: 700;
+    font-size: 96px; 
+   
+    
+}
+
+.slidertextp{
+    color: #8c8c8c;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.carousel-item::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color:#0D0D11 ;
+    opacity: 0.74;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.sliderLine{
+    position: absolute;
+    left: 0px;
+    top: 560px;
+    display: inline-block;
+    width: 40px;
+    height: 5px;
+    background: #10ddb4;
+    z-index:    2;
+    animation-duration: 7s;
+    animation-name: progress;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes progress{
+    0%{width: 0px;}
+    100%{width: 1920px;}
+}
