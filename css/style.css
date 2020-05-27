@@ -4,7 +4,7 @@
 }
 
 .logo-container > img{
-    margin-left: 17px;
+    margin-left: 37px;
 }
 
 .menu-container{
@@ -30,25 +30,40 @@
     text-decoration: none;
 
 }
-
+.menu-container ul{
+    padding-left: 0;
+}
 .menu-container >ul>li .line{
     position: absolute;
     left: 0px;
-    top: 67px;
+    top: 62px;
     display: inline-block;
     width: 0px;
     height: 3px;
     background: #10ddb4;
     transition: width 0.3s;
 }
-
+.menu-container >ul>li:nth-child(1):hover .line{
+   width: 50px;
+}
+.menu-container >ul>li:nth-child(2):hover .line{
+    width: 90px;
+}
+.menu-container >ul>li:nth-child(3):hover .line{
+    width: 55px;
+}
+.menu-container >ul>li:nth-child(4):hover .line{
+    width: 70px;
+}
+.menu-container >ul>li:nth-child(5):hover .line{
+    width: 45px;
+}
+.menu-container >ul>li:nth-child(6):hover .line{
+    width: 40px;
+}
 .menu-container >ul>li:hover .line{
    width: 55px;
    
-}
-span
-{
-    display: none;
 }
 .menu-container >ul>li >a{
     font-size: 16px;
@@ -62,7 +77,10 @@ span
 
 .addimg-container > img{
     width: 100%;
-    
+    height: 100%;
+}
+.addimg-container{
+    padding: 0;
 }
 
 .slidersubmit{
