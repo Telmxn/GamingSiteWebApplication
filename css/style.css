@@ -329,3 +329,63 @@ a:hover{
 .right-part-post:nth-child(2){
     color: #7E7E7E;
 }
+
+.sb-item{
+   padding-top: 100px;
+    background-color: #222222;
+}
+
+.sb-date{
+    position: relative;
+    top: -81px;
+    left: 30px;
+    color: #212529;
+    display: inline;
+    background-color: #10DDB4;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    padding: 4px;
+}
+
+.sb-caption{
+    margin-top: -150px;
+    margin-left: 202px;
+    color: #ffffff;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 500;
+}
+
+.sb-metas >p{
+    position: relative;
+    left: 195px;
+    margin-left: 10px;
+    display: inline-block;
+    color: #8c8c8c;
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.sb-description{
+    margin-left: 205px;
+    color: #8c8c8c;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    line-height: 28.8px;
+    font-weight: 400;
+    width: 540px;
+}
+
+
+.sb-post{
+    margin-bottom: 40px;
+}
+
+.sb-metas>p >a{
+    color: #FFE11A;
+}
