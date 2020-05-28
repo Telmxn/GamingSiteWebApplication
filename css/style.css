@@ -358,6 +358,7 @@ a:hover{
 
 
 
+
 .sb-title{
     color: #ffffff;
     font-family: Roboto,sans-serif;
@@ -456,8 +457,9 @@ a:hover{
 
 .in-date{
     position: relative;
-    margin-left: 100px;
-    top: -87px;
+    margin-left: 10px;
+    margin-bottom: 80px;
+    top: -30px;
     color: #212529;
     background-color: #10ddb4;
     font-family: Roboto, sans-serif;
@@ -477,9 +479,10 @@ a:hover{
     line-height: 16.8px;
     font-weight: 500;
     display: inline-block;
-    top: -80px;
-    left: 100px;
+    top: -10px;
+    left: -95px;
     width: 150px;
+    margin-top: 40px;
 }
 
 .in-info{
@@ -490,6 +493,7 @@ a:hover{
 }
 
 .in-info > p{
+    
     display: inline-block;
     color: #8c8c8c;
     font-family: Roboto,sans-serif;
