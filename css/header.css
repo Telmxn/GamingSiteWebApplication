@@ -1,0 +1,79 @@
+.logo-container{
+    background-color: #222222;
+    padding: 20px 0;
+}
+.logo-container > img{
+    margin-left: 37px;
+}
+.menu-container{
+    background-color: #353535;
+    display: inline;
+    padding: 30px;
+}
+
+.menu-container >ul> li{
+    position: relative;
+    display: inline;
+    margin: 30px;
+    
+}
+
+.menu-container >ul{
+    margin-top:18px;
+    list-style: none;
+
+}
+
+.menu-container >ul>li>a:hover{
+    text-decoration: none;
+
+}
+.menu-container ul{
+    padding-left: 0;
+}
+.menu-container >ul>li .line{
+    position: absolute;
+    left: 0px;
+    top: 62px;
+    display: inline-block;
+    width: 0px;
+    height: 3px;
+    background: #10ddb4;
+    transition: width 0.3s;
+}
+.menu-container >ul>li:nth-child(1):hover .line{
+   width: 50px;
+}
+.menu-container >ul>li:nth-child(2):hover .line{
+    width: 90px;
+}
+.menu-container >ul>li:nth-child(3):hover .line{
+    width: 55px;
+}
+.menu-container >ul>li:nth-child(4):hover .line{
+    width: 70px;
+}
+.menu-container >ul>li:nth-child(5):hover .line{
+    width: 45px;
+}
+.menu-container >ul>li:nth-child(6):hover .line{
+    width: 40px;
+}
+.menu-container >ul>li:hover .line{
+   width: 55px;
+   
+}
+.menu-container >ul>li >a{
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    line-height: 24px;
+    color: #EAEAEA;
+    font-weight: 700;
+}
+.addimg-container > img{
+    width: 100%;
+    height: 100%;
+}
+.addimg-container{
+    padding: 0 !important;
+}
