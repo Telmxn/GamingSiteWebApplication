@@ -479,7 +479,7 @@ a:hover{
     line-height: 16.8px;
     font-weight: 500;
     display: inline-block;
-    top: -10px;
+    top: 0px;
     left: -95px;
     width: 150px;
     margin-top: 40px;
@@ -487,7 +487,7 @@ a:hover{
 
 .in-info{
     position: relative;
-    top: -90px;
+    top: -80px;
     left: 102px;
     width: 195px;
 }
@@ -500,4 +500,9 @@ a:hover{
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
+}
+
+
+.top-five{
+    height: 150px;
 }
