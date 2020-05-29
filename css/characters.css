@@ -104,3 +104,119 @@ h1, h2, h3, h4, h5, h6 {
  .progress-circle.p75 .value-bar { transform: rotate(270deg); }
  .progress-circle.p80 .value-bar { transform: rotate(288deg); }
  .progress-circle.p90 .value-bar { transform: rotate(324deg); }
+.header-bg::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #0d0d11;
+    opacity: 0.74;
+    z-index: 1;
+}
+
+.header-bg{
+    position: relative;
+}
+
+
+
+.caption-bg{
+    margin-top: -280px;
+    margin-left: 490px;
+    z-index: 1;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 72px;
+    line-height: 86.4px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+}
+
+
+.caption-bg::after{
+position: absolute;
+content: '';
+width: 69px;
+height: 4px;
+background-color: #10DDB4;
+top: 88px;
+right: 150px;
+}
+
+
+.character-info{
+    background-color: #1C1C1C;
+    
+}
+
+.dv-character{
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
+.character-info > img{
+    margin: 100px 0px 0px 55px;
+}
+
+.readmore1-btn{
+    color: #161616;
+    background-color:#10ddb4;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    width: 168px;
+    height: 55px;
+    border-radius: 40px;
+    border: none;
+    margin-left: -160px;
+}
+
+
+ .character-info .div-character > h2{
+    color: #ffffff;
+    font-family: Roboto, sans-serf;
+    
+}
+
+.dv-character > p{ width: 640px;
+   
+}
+
+.character-image > img{
+    position: relative;
+    left: 600px;
+    top: -150px;
+    width: 150px;
+    height: 150px;
+    margin-left: 200px;
+    
+}
+
+.dv-character >h2{
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.dv-character > h5{
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 700;
+}
+
+.dv-character > p{
+    color: #8c8c8c;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 28.8px;
+    font-weight: 400;
+    margin-top: 40px;
+}
