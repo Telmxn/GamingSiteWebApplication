@@ -72,6 +72,50 @@ a:hover{
     0%{width: 0px;}
     100%{width: 1920px;}
 }
+
+
+.slidertext{
+    left: 100px;
+    position: absolute;
+    animation-duration: 1s;
+    animation-name: slidertext;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes  slidertext{
+   from{top:-200px; opacity: 0;}
+   to{top:-320px;}
+}
+
+.slidertextp{
+    position: absolute;
+    animation-duration: 1s;
+    animation-name: slidertextp;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes slidertextp{
+    from{top:-70px; opacity: 0;}
+    to{top:-190px;}
+}
+
+
+.slidersubmit{
+    position: absolute;
+    right: 400px;
+    animation-duration: 1s;
+    animation-name: slidersubmit;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes slidersubmit{
+    from{top: 120px; opacity: 0;}
+    to{top:-80px}
+}
+
 body{
     font-family: "Roboto", sans-serif;
 }
